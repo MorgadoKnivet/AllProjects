@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MonitoriaCEFET</string>
+    <string name="auth_failed">auth_failed teste</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_menu_monitor">MenuMonitor</string>
+    <string name="titulo">casual</string>
+    <string name="title_activity_menu_aluno">menuAluno</string>
+    <string name="title_activity_feed_back">FeedBack</string>
+    <string name="title_activity_creditos">creditos</string>
+    <string name="title_activity_avaliar_monitor">AvaliarMonitor</string>
+    <string name="banner_ad_unit_id">ca-app-pub-7164742797981159/9467115853</string>
+    <string name="title_activity_atualizar_monitoria">AtualizarMonitoria</string>
+    <string name="title_activity_conta_monitor">ContaMonitor</string>
+    <string name="title_activity_menu_atualizar_monitoria">MenuAtualizarMonitoria</string>
+    <string name="title_activity_atualizar_dados">AtualizarDados</string>
+    <string name="title_activity_atualizar_observarcao">AtualizarObservarcao</string>
+    <string name="title_activity_excluir_monitoria">ExcluirMonitoria</string>
+    <string name="title_activity_redefinir_senha">RedefinirSenha</string>
+    <string name="title_activity_perfil">Perfil</string>
+    <string name="title_activity_lista_personalizada_perfil_contatos">
+        ListaPersonalizadaPerfilContatos
+    </string>
+    <string name="title_activity_lista_personalizada_avisos">ActivityListaPersonalizadaAvisos
+    </string>
+</resources>
+

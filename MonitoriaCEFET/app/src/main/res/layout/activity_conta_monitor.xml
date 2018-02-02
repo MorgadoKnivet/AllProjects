@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundoBackGround"
+    tools:context="morgado.mdsoftware.monitoriacefet.Medio_Tecnico.outros.ContaMonitor"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+    <TextView
+        android:id="@+id/textView10"
+
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+
+
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+
+
+        android:layout_marginTop="16dp"
+        android:fontFamily="@string/titulo"
+        android:gravity="center"
+        android:text="Conta Monitor"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/titulo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/avisoNet"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Fique tranquilo. Você será aviso quando sua conta atualizar"
+        android:textColor="#ff3333"
+        app:layout_constraintTop_toBottomOf="@+id/contaNomeMonitor"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+    <EditText
+        android:id="@+id/contaNomeMonitor"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+
+
+        android:ems="10"
+        android:fontFamily="@string/titulo"
+        android:hint="Escreva seu nome completo"
+        android:inputType="text|textAutoCorrect|textAutoComplete|textMultiLine"
+        android:singleLine="false"
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/colorHint"
+        android:textSize="@dimen/text"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <Button
+        android:id="@+id/contaEnviarMonitor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginLeft="100dp"
+
+
+        android:layout_marginRight="100dp"
+        android:background="@drawable/button_site"
+        android:fontFamily="@string/titulo"
+        android:text="Enviar"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/text"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/avisoNet" />
+</android.support.constraint.ConstraintLayout>

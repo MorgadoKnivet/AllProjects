@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="morgado.mdsoftware.monitoriacefet.Universidade.AtualizarMonitoriaFaculdade"
+    android:background="@color/fundoBackGround">
+
+    <Button
+        android:id="@+id/butExcluirATTFaculdade"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_site"
+        android:elevation="24dp"
+        android:fontFamily="@string/titulo"
+        android:text="Excluir"
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/colorHint"
+        android:textSize="@dimen/text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline8"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dado5ATTFaculdade" />
+
+    <Button
+        android:id="@+id/butAtualizarATTFaculdade"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="16dp"
+
+        android:background="@drawable/button_site"
+        android:elevation="24dp"
+        android:fontFamily="@string/titulo"
+        android:text="Atualizar"
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/colorHint"
+        android:textSize="@dimen/text"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/guideline8"
+        app:layout_constraintTop_toBottomOf="@+id/dado5ATTFaculdade" />
+
+    <TextView
+        android:id="@+id/textView34"
+
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+
+
+        android:layout_marginTop="8dp"
+        android:fontFamily="@string/titulo"
+        android:gravity="center"
+
+
+        android:text="Atualizar Dados"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/titulo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="Materia: "
+        android:textColor="@color/titulo"
+        android:fontFamily="casual"
+        android:textSize="@dimen/descriçãoDoEditText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:textColor="@color/titulo"
+        android:fontFamily="casual"
+        android:textSize="@dimen/descriçãoDoEditText"
+        android:text="Dados: "
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/dado1ATTFaculdade" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:textColor="@color/titulo"
+        android:fontFamily="casual"
+        android:textSize="@dimen/descriçãoDoEditText"
+        android:text="Dados: "
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dado1ATTFaculdade"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="casual"
+        android:text="Dados: "
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/descriçãoDoEditText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dado5ATTFaculdade"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="casual"
+        android:text="Dados: "
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/descriçãoDoEditText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/dado3ATTFaculdade" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="casual"
+        android:text="Dados: "
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/descriçãoDoEditText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/dado2ATTFaculdade" />
+
+    <EditText
+        android:id="@+id/dado4ATTFaculdade"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="Dia/Horário/Local"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorHint"
+        android:textSize="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/dado3ATTFaculdade"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/textView32"
+        android:layout_marginLeft="0dp" />
+
+    <EditText
+        android:id="@+id/dado5ATTFaculdade"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-2dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="Dia/Horário/Local"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorHint"
+        android:textSize="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/dado4ATTFaculdade"
+        app:layout_constraintLeft_toRightOf="@+id/textView33"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/dado3ATTFaculdade"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="Dia/Horário/Local"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorHint"
+        android:textSize="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/dado2ATTFaculdade"
+        app:layout_constraintLeft_toRightOf="@+id/textView31"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <EditText
+        android:id="@+id/dado2ATTFaculdade"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="Dia/Horário/Local"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorHint"
+        android:textSize="16dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/textView30"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dado1ATTFaculdade" />
+
+    <EditText
+        android:id="@+id/dado1ATTFaculdade"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="Dia/Horário/Local"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorHint"
+        android:textSize="16dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/textView29"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materiaATTFaculdade" />
+
+    <EditText
+        android:id="@+id/materiaATTFaculdade"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Matéria"
+        android:textSize="16dp"
+       android:textColor="@color/colorHint"
+        android:fontFamily="casual"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/textView26"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline8"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".Medio_Tecnico.Atualizar.MenuAtualizarMonitoria">
+
+
+    <Button
+        android:id="@+id/attMenuExcluir"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/button_site"
+        android:fontFamily="@string/titulo"
+        android:onClick="irParaFeedBackAluno"
+        android:text="excluir monitoria"
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/titulo"
+        android:textSize="@dimen/text"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/attMenuObservacao" />
+
+    <Button
+        android:id="@+id/attMenuObservacao"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+
+
+        android:background="@drawable/button_site"
+        android:fontFamily="@string/titulo"
+        android:onClick="irParaFeedBackAluno"
+        android:text="Atualizar observação"
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/titulo"
+        android:textSize="@dimen/text"
+        android:layout_marginTop="35dp"
+        app:layout_constraintTop_toBottomOf="@+id/attMenuDados"
+        android:layout_marginLeft="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="50dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <Button
+        android:id="@+id/attMenuDados"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+
+
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_site"
+        android:elevation="24dp"
+        android:fontFamily="@string/titulo"
+        android:onClick="irParaFeedBackAluno"
+        android:text="Atualizar dados"
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/titulo"
+        android:textSize="@dimen/text"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        android:layout_marginLeft="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="50dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+
+
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+
+
+        android:fontFamily="@string/titulo"
+        android:gravity="center"
+        android:text="Atualizar Monitoria"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/titulo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
+</android.support.constraint.ConstraintLayout>

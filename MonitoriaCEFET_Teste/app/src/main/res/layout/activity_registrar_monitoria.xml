@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundoBackGround"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Medio_Tecnico.utilidades.RegistrarMonitoria"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+    <EditText
+        android:id="@+id/obsRegistro"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginLeft="8dp"
+
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:fontFamily="@string/titulo"
+        android:hint="Observações"
+        android:inputType="text|textAutoCorrect|textAutoComplete|textImeMultiLine|textPersonName"
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/colorHint"
+        android:textSize="@dimen/text"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dadosRegistro5" />
+
+    <EditText
+        android:id="@+id/nomeRegistro"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginStart="8dp"
+
+
+        android:ems="10"
+        android:fontFamily="@string/titulo"
+        android:hint="Seu nome e sobrenome"
+        android:inputType="text|textAutoCorrect|textAutoComplete|textPersonName"
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/colorHint"
+        android:textSize="@dimen/text"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/dadosRegistro5"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginStart="8dp"
+
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:fontFamily="@string/titulo"
+        android:hint="Dia/Horário/Local"
+        android:inputType="text|textAutoCorrect|textAutoComplete|textImeMultiLine|textPersonName"
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/colorHint"
+        android:textSize="@dimen/text"
+        app:layout_constraintTop_toBottomOf="@+id/dadosRegistro4"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/materiaRegistro"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginStart="8dp"
+
+
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:fontFamily="@string/titulo"
+        android:hint="Matéria"
+        android:inputType="text|textAutoCorrect|textAutoComplete|textPersonName"
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/colorHint"
+        android:textSize="@dimen/text"
+        app:layout_constraintTop_toBottomOf="@+id/nomeRegistro"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/anoRegistro"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginStart="8dp"
+
+        android:layout_marginTop="7dp"
+        android:ems="10"
+        android:fontFamily="@string/titulo"
+        android:hint="Ano(s) foco da monitoria "
+        android:inputType="text|textAutoCorrect|textAutoComplete|textPersonName"
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/colorHint"
+        android:textSize="@dimen/text"
+        app:layout_constraintTop_toBottomOf="@+id/materiaRegistro"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/turnoRegistro"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+
+
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:fontFamily="@string/titulo"
+        android:hint="Turno"
+        android:inputType="textPersonName"
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/colorHint"
+        android:textSize="@dimen/text"
+        app:layout_constraintTop_toBottomOf="@+id/anoRegistro"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/dadosRegistro1"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+
+        android:layout_marginTop="7dp"
+        android:ems="10"
+        android:fontFamily="@string/titulo"
+        android:hint="Dia/Horário/Local"
+        android:inputType="text|textPersonName"
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/colorHint"
+        android:textSize="@dimen/text"
+        app:layout_constraintTop_toBottomOf="@+id/turnoRegistro"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/dadosRegistro2"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginStart="8dp"
+
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:fontFamily="@string/titulo"
+        android:hint="Dia/Horário/Local"
+        android:inputType="textPersonName"
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/colorHint"
+        android:textSize="@dimen/text"
+        app:layout_constraintTop_toBottomOf="@+id/dadosRegistro1"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/dadosRegistro3"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginStart="8dp"
+
+        android:layout_marginTop="7dp"
+        android:ems="10"
+        android:fontFamily="@string/titulo"
+        android:hint="Dia/Horário/Local"
+        android:inputType="textPersonName"
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/colorHint"
+        android:textSize="@dimen/text"
+        app:layout_constraintTop_toBottomOf="@+id/dadosRegistro2"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/dadosRegistro4"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginStart="8dp"
+
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:fontFamily="@string/titulo"
+        android:hint="Dia/Horário/Local"
+        android:inputType="text|textAutoCorrect|textAutoComplete|textPersonName"
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/colorHint"
+        android:textSize="@dimen/text"
+        app:layout_constraintTop_toBottomOf="@+id/dadosRegistro3"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/butRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_site"
+        android:fontFamily="@string/titulo"
+        android:text="Registrar"
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/colorHint"
+        android:textSize="@dimen/text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/obsRegistro" />
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

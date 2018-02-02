@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundoBackGround"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="morgado.mdsoftware.monitoriacefet.Medio_Tecnico.utilidades.MenuMonitor"
+    android:background="@color/fundoBackGround"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <Button
+        android:id="@+id/ProcurarMonitoriaMA"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="50dp"
+
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/button_site"
+        android:fontFamily="@string/titulo"
+
+        android:text="Procurar Monitoria"
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/titulo"
+        android:textSize="@dimen/text"
+        android:visibility="gone"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/feedbackMA"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+
+
+        android:layout_marginLeft="50dp"
+
+        android:layout_marginRight="50dp"
+
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_site"
+        android:fontFamily="@string/titulo"
+        android:text="Problemas/Sugestões? "
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/titulo"
+        android:textSize="@dimen/text"
+        android:visibility="gone"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AvaliarMonitorMA" />
+
+
+    <Button
+        android:id="@+id/AvaliarMonitorMA"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+
+        android:layout_marginTop="40dp"
+
+        android:background="@drawable/button_site"
+        android:fontFamily="@string/titulo"
+        android:text="Avaliar Monitor"
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/titulo"
+        android:textSize="@dimen/text"
+        android:visibility="gone"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contaMonitor" />
+
+    <Button
+        android:id="@+id/contaMonitor"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+
+        android:layout_marginLeft="50dp"
+
+        android:layout_marginRight="50dp"
+
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_site"
+        android:fontFamily="@string/titulo"
+        android:text="É monitor? Clique aqui"
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/titulo"
+
+
+        android:textSize="@dimen/text"
+        android:visibility="gone"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProcurarMonitoriaMA" />
+
+    <ImageView
+        android:id="@+id/bannerMenuAluno"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:adjustViewBounds="true"
+        android:focusable="true"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintHorizontal_bias="0.0"
+        ads:layout_constraintLeft_toLeftOf="parent"
+        ads:layout_constraintRight_toRightOf="parent"
+        ads:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/banner_calc_exatas" />
+
+    <ImageButton
+        android:id="@+id/closedMenuAluno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        ads:layout_constraintRight_toRightOf="parent"
+        ads:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

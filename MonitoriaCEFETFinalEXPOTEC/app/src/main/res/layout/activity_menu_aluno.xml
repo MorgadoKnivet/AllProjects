@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="morgado.mdsoftware.monitoriacefet.Medio_Tecnico.utilidades.MenuMonitor"
+    android:background="@color/fundoBackGround"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+
+<!--
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewMenuAlunoTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="0dp"
+        app:layout_constraintHorizontal_bias="0.5">
+    </com.google.android.gms.ads.AdView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewMenuAlunoBot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        ads:adSize="LARGE_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        ads:layout_constraintLeft_toLeftOf="parent"
+        ads:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintHorizontal_bias="0.5"></com.google.android.gms.ads.AdView>
+-->
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:onClick="irParaCreditos"
+        android:text="Desenvolvido por Guilherme Morgado"
+        android:textColor="#0000ff"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="0dp" />
+
+    <Button
+        android:id="@+id/ProcurarMonitoriaMA"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:background="@drawable/button_site"
+
+        android:fontFamily="@string/titulo"
+        android:text="Procurar Monitoria"
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/titulo"
+
+        android:textSize="@dimen/text"
+        android:layout_marginRight="50dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="60dp"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+    <Button
+        android:id="@+id/feedbackMA"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+
+
+        android:background="@drawable/button_site"
+
+        android:fontFamily="@string/titulo"
+        android:onClick="irParaFeedBackAluno"
+        android:text="Problemas/Sugestões? "
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/titulo"
+        android:textSize="@dimen/text"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/AvaliarMonitor"
+        android:layout_marginRight="50dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+
+    <Button
+        android:id="@+id/AvaliarMonitor"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+
+        android:background="@drawable/button_site"
+        android:fontFamily="@string/titulo"
+
+        android:text="Avaliar Monitor"
+        android:onClick="irParaAvaliar"
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/titulo"
+        android:textSize="@dimen/text"
+        android:layout_marginLeft="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="50dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/contaMonitor" />
+
+    <Button
+        android:id="@+id/contaMonitor"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+
+        android:layout_marginRight="50dp"
+
+        android:layout_marginTop="40dp"
+
+        android:background="@drawable/button_site"
+        android:fontFamily="@string/titulo"
+        android:text="É monitor? Clique aqui"
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/titulo"
+        android:textSize="@dimen/text"
+
+
+        app:layout_constraintTop_toBottomOf="@+id/ProcurarMonitoriaMA"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+
+</android.support.constraint.ConstraintLayout>

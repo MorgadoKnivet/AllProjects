@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <android.support.constraint.ConstraintLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        xmlns:tools="http://schemas.android.com/tools"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fundoBackGround"
+        tools:layout_editor_absoluteY="25dp"
+        tools:layout_editor_absoluteX="0dp">
+
+
+    <TextView
+        android:id="@+id/avisoNet"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Necessita estar conectado com a internet"
+        android:textColor="#ff3333"
+        android:visibility="gone"
+        ads:layout_constraintLeft_toLeftOf="parent"
+        ads:layout_constraintRight_toRightOf="parent"
+        ads:layout_constraintTop_toBottomOf="@+id/senhaL" />
+
+        <EditText
+            android:id="@+id/redEmail"
+            android:layout_width="0dp"
+            android:layout_height="49dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+
+            android:ems="10"
+            android:fontFamily="@string/titulo"
+            android:hint="E-mail"
+
+
+            android:inputType="textEmailAddress"
+            android:singleLine="false"
+            android:textColor="@color/titulo"
+            android:textColorHint="@color/colorHint"
+            android:textSize="@dimen/text"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tituloL"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp" />
+
+        <TextView
+            android:id="@+id/tituloL"
+            android:layout_width="0dp"
+            android:layout_height="49dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+
+
+            android:fontFamily="@string/titulo"
+            android:gravity="center"
+            android:text="Login"
+
+
+            android:textColor="@color/titulo"
+            android:textSize="@dimen/titulo"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="16dp" />
+
+
+        <EditText
+            android:id="@+id/senhaL"
+            android:layout_width="0dp"
+            android:layout_height="49dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+
+
+            android:ems="10"
+            android:fontFamily="@string/titulo"
+            android:hint="Senha"
+
+            android:inputType="textPassword"
+            android:textColor="@color/titulo"
+            android:textColorHint="@color/colorHint"
+            android:textSize="@dimen/text"
+            android:layout_marginTop="0dp"
+            ads:layout_constraintTop_toBottomOf="@+id/redEmail"
+            android:layout_marginLeft="8dp"
+            ads:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp"
+            ads:layout_constraintRight_toRightOf="parent" />
+
+        <Button
+            android:id="@+id/buttonLoguinL"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/button_site"
+
+
+            android:fontFamily="@string/titulo"
+            android:text="Entrar"
+            android:textColor="@color/titulo"
+            android:textSize="@dimen/text"
+            android:layout_marginLeft="100dp"
+            ads:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="100dp"
+            ads:layout_constraintRight_toRightOf="parent"
+            ads:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginTop="8dp"
+            ads:layout_constraintTop_toBottomOf="@+id/avisoNet" />
+<!--
+    <TextView
+        android:id="@+id/irParaCadastroL"
+
+        android:layout_width="o"
+        android:layout_height="50dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+
+        android:background="@color/fundoBackGround"
+        android:fontFamily="@string/titulo"
+        android:gravity="center"
+
+
+        android:onClick="irParaCadastro"
+        android:text="Ainda não tem cadastro? Click aqui"
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/titulo"
+        android:textSize="@dimen/text"
+        ads:layout_constraintLeft_toLeftOf="parent"
+        ads:layout_constraintRight_toRightOf="parent"
+        ads:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="8dp"
+        ads:layout_constraintTop_toBottomOf="@+id/esqueceuSenha" />
+-->:
+
+    <TextView
+        android:id="@+id/esqueceuSenha"
+
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+
+        android:background="@color/fundoBackGround"
+        android:fontFamily="@string/titulo"
+
+
+        android:gravity="center"
+        android:onClick="irParaCadastro"
+        android:text="Esqueceu sua senha?"
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/titulo"
+        android:textSize="@dimen/text"
+        android:layout_marginTop="8dp"
+        ads:layout_constraintTop_toBottomOf="@+id/buttonLoguinL"
+        android:layout_marginLeft="50dp"
+        ads:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="50dp"
+        ads:layout_constraintRight_toRightOf="parent"
+        ads:layout_constraintHorizontal_bias="0.0" />
+
+    <com.google.android.gms.ads.AdView
+            android:id="@+id/adViewLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+        ads:adSize="LARGE_BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id"
+
+        android:layout_marginTop="20dp"
+        ads:layout_constraintTop_toBottomOf="@+id/esqueceuSenha"
+        android:layout_marginRight="0dp"
+        ads:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="0dp"
+        ads:layout_constraintLeft_toLeftOf="parent"></com.google.android.gms.ads.AdView>
+
+
+    </android.support.constraint.ConstraintLayout>
+<!--
+</ScrollView>
+-->

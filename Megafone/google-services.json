@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "451527690809",
+    "firebase_url": "https://megafone-app.firebaseio.com",
+    "project_id": "megafone-app",
+    "storage_bucket": "megafone-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451527690809:android:d105c7774697e46f",
+        "android_client_info": {
+          "package_name": "morgado.mdsoftware.megafone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451527690809-756g0v2389655l5729dsohhp283kjmm4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt8D9wox0fupH9WQf5cC83WTXkFfzxJGg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

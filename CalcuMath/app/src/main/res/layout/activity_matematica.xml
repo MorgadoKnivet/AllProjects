@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mdsoftware.development.calcumath.matematica">
+
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="8dp"
+        android:onClick="irParaDetalhes"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bhaskaraformula" />
+
+    <Button
+        android:id="@+id/butMatChines"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Teorema Chinês do resto"
+        android:onClick=""
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:layout_constraintHorizontal_bias="0.5" />
+</android.support.constraint.ConstraintLayout>
+<!--
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mdsoftware.development.calcumath.matematica"
+    android:background="@drawable/barramath">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton17"
+            android:layout_width="40dp"
+            android:layout_height="36dp"
+            android:onClick="voltar"
+            app:srcCompat="@android:drawable/ic_media_previous"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="0dp" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="352dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="46dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:background="@null"
+                android:onClick="bhaskara"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/bhaskaramenu"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="293dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/bhaskaramenu"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="293dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton14"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/bhaskaramenu"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="293dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton16"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/bhaskaramenu"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="293dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton15"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/bhaskaramenu"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="293dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton20"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/bhaskaramenu"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="293dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton19"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/bhaskaramenu"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="293dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton21"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/bhaskaramenu"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="293dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton22"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/bhaskaramenu"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="293dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton23"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/bhaskaramenu"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="293dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton24"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/bhaskaramenu"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="293dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="46dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton25"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/bhaskaramenu"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="293dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="46dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
+-->

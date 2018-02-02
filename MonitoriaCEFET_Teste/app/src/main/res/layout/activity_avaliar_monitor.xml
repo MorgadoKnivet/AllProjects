@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundoBackGround"
+    tools:context=".Medio_Tecnico.avaliar_monitoria.AvaliarMonitor">
+
+    <Button
+        android:id="@+id/enviarAM"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="100dp"
+
+
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+
+
+        android:layout_marginStart="100dp"
+        android:background="@drawable/button_site"
+        android:fontFamily="@string/titulo"
+        android:text="Entrar"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/creditos" />
+
+    <EditText
+        android:id="@+id/presenca"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:fontFamily="@string/titulo"
+        android:hint="O monitor estava presente? Sim/não"
+        android:inputType="text"
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/colorHint"
+        android:textSize="@dimen/text"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/localATV" />
+    <TextView
+        android:id="@+id/creditos"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+
+        android:textSize="@dimen/text"
+        android:onClick="irParaCreditos"
+        android:text="Desenvolvido por Guilherme Morgado"
+        android:textColor="#0000ff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/horarioATV"
+
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+
+
+        android:fontFamily="@string/titulo"
+        android:gravity="left"
+        android:text="Horário"
+
+
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/text"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diaAVTV" />
+
+    <TextView
+        android:id="@+id/localATV"
+
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+
+
+        android:fontFamily="@string/titulo"
+        android:gravity="left"
+
+
+        android:text="Local"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/text"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horarioATV" />
+
+    <TextView
+        android:id="@+id/Titulo"
+
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+
+
+        android:fontFamily="@string/titulo"
+        android:gravity="center"
+        android:text="Avaliar Monitor"
+
+
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/titulo"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <TextView
+        android:id="@+id/diaAVTV"
+
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+
+
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@string/titulo"
+
+
+        android:gravity="left"
+        android:text="Dias da monitoria"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/text"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nomeMonitorATV" />
+
+    <TextView
+        android:id="@+id/nomeMonitorATV"
+
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+
+
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+
+
+        android:layout_marginTop="8dp"
+        android:fontFamily="@string/titulo"
+        android:gravity="left"
+        android:text="Nome do monitor"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/text"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Titulo" />
+
+    <EditText
+        android:id="@+id/nota"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:fontFamily="@string/titulo"
+        android:hint="De 1 a 10? Avalie a monitoria"
+        android:textColorHint="@color/colorHint"
+        android:inputType="numberDecimal"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/text"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/presenca"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+
+    <EditText
+        android:id="@+id/opiniaoMonitor"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/fundoBackGround"
+        android:ems="10"
+        android:fontFamily="@string/titulo"
+        android:hint="Quer deixar sua opinião sobre a monitoria ?"
+        android:inputType="textAutoCorrect|textAutoComplete|textMultiLine"
+        android:textColor="@color/titulo"
+        android:textColorHint="@color/colorHint"
+        android:textSize="@dimen/text"
+        app:layout_constraintBottom_toTopOf="@+id/enviarAM"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nota"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>

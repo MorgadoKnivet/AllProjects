@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "419072551456",
+    "firebase_url": "https://monitoria-cefet.firebaseio.com",
+    "project_id": "monitoria-cefet",
+    "storage_bucket": "monitoria-cefet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419072551456:android:96fe6c08f0e32aac",
+        "android_client_info": {
+          "package_name": "com.example.moorg.monitoriacefet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419072551456-ef9d0oevs456a7jp58oeg4dv51l8hu2q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhHqfCXz-F-U-KxN6cYifeDpe6raX40Tk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

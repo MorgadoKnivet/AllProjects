@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MonitoriaCEFET</string>
+    <string name="auth_failed">auth_failed teste</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_menu_monitor">MenuMonitor</string>
+    <string name="titulo">casual</string>
+    <string name="title_activity_menu_aluno">menuAluno</string>
+    <string name="title_activity_feed_back">FeedBack</string>
+    <string name="title_activity_creditos">creditos</string>
+    <string name="title_activity_avaliar_monitor">AvaliarMonitor</string>
+</resources>
+

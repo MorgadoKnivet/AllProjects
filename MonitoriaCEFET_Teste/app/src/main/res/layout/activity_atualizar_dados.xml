@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundoBackGround"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="@color/fundoBackGround"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="morgado.mdsoftware.monitoriacefet.atualizar.monitoria.AtualizarDados">
+
+
+        <TextView
+            android:id="@+id/textView13"
+
+            android:layout_width="0dp"
+            android:layout_height="49dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+
+
+            android:layout_marginTop="8dp"
+            android:fontFamily="@string/titulo"
+            android:gravity="center"
+
+
+            android:text="Atualizar Dados"
+            android:textColor="@color/titulo"
+            android:textSize="@dimen/titulo"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+<!--
+        <EditText
+            android:id="@+id/nomeAD"
+            android:layout_width="0dp"
+            android:layout_height="49dp"
+            android:layout_marginEnd="8dp"
+
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+
+
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:fontFamily="@string/titulo"
+            android:hint="Nome do monitor"
+            android:inputType="text|textAutoCorrect|textAutoComplete|textPersonName"
+            android:textColor="@color/titulo"
+            android:textColorHint="@color/colorHint"
+            android:textSize="@dimen/text"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <EditText
+            android:id="@+id/sobrenomeAD"
+            android:layout_width="0dp"
+            android:layout_height="49dp"
+            android:layout_marginEnd="8dp"
+
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+
+
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:fontFamily="@string/titulo"
+            android:hint="Sobrenome do monitor "
+            android:inputType="text|textAutoCorrect|textAutoComplete|textPersonName"
+            android:textColor="@color/titulo"
+            android:textColorHint="@color/colorHint"
+            android:textSize="@dimen/text"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nomeAD" />
+
+        <EditText
+            android:id="@+id/materiaAD"
+            android:layout_width="0dp"
+            android:layout_height="49dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:fontFamily="@string/titulo"
+            android:hint="Matéria"
+            android:inputType="text|textAutoCorrect|textAutoComplete|textPersonName"
+            android:textColor="@color/titulo"
+            android:textColorHint="@color/colorHint"
+            android:textSize="@dimen/text"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sobrenomeAD" />
+
+        <EditText
+            android:id="@+id/anoAD"
+            android:layout_width="0dp"
+            android:layout_height="49dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+
+
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:fontFamily="@string/titulo"
+            android:hint="Ano dos alunos (Registrar somente um ano)"
+            android:inputType="textPersonName"
+            android:textColor="@color/titulo"
+            android:textColorHint="@color/colorHint"
+            android:textSize="@dimen/text"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/materiaAD" />
+
+        <EditText
+            android:id="@+id/turnoAD"
+            android:layout_width="0dp"
+            android:layout_height="49dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:fontFamily="@string/titulo"
+            android:hint="Turno que acontece a monitora"
+            android:inputType="text|textPersonName"
+            android:textColor="@color/titulo"
+            android:textColorHint="@color/colorHint"
+            android:textSize="@dimen/text"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/anoAD" />
+-->
+        <EditText
+            android:id="@+id/diaAD"
+            android:layout_width="0dp"
+            android:layout_height="49dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+
+            android:ems="10"
+            android:fontFamily="@string/titulo"
+            android:hint="Dias da semana"
+            android:inputType="textPersonName"
+            android:textColor="@color/titulo"
+            android:textColorHint="@color/colorHint"
+            android:textSize="@dimen/text"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <EditText
+            android:id="@+id/horarioAD"
+            android:layout_width="0dp"
+            android:layout_height="49dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:fontFamily="@string/titulo"
+            android:hint="Horário"
+            android:inputType="textPersonName"
+            android:textColor="@color/titulo"
+            android:textColorHint="@color/colorHint"
+            android:textSize="@dimen/text"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/diaAD" />
+
+        <EditText
+            android:id="@+id/localAD"
+            android:layout_width="0dp"
+            android:layout_height="49dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:fontFamily="@string/titulo"
+            android:hint="Local"
+            android:inputType="text|textAutoCorrect|textAutoComplete|textPersonName"
+            android:textColor="@color/titulo"
+            android:textColorHint="@color/colorHint"
+            android:textSize="@dimen/text"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/horarioAD" />
+
+        <EditText
+            android:id="@+id/observacaoAD"
+            android:layout_width="0dp"
+            android:layout_height="49dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:fontFamily="@string/titulo"
+            android:hint="Observações"
+            android:inputType="text|textAutoCorrect|textAutoComplete|textPersonName"
+            android:textColor="@color/titulo"
+            android:textColorHint="@color/colorHint"
+            android:textSize="@dimen/text"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/localAD" />
+
+        <Button
+            android:id="@+id/buttonAtualizarDados"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/button_site"
+            android:fontFamily="@string/titulo"
+            android:text="Atualizar"
+            android:textColor="@color/titulo"
+            android:textColorHint="@color/colorHint"
+            android:textSize="@dimen/text"
+
+            app:layout_constraintTop_toBottomOf="@+id/observacaoAD"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="100dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="100dp"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adViewDados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            ads:adSize="LARGE_BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonAtualizarDados" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+    </ScrollView>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "255853939700",
+    "firebase_url": "https://alertmaps-19c95.firebaseio.com",
+    "project_id": "alertmaps-19c95",
+    "storage_bucket": "alertmaps-19c95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255853939700:android:115af4bfa5059cf1",
+        "android_client_info": {
+          "package_name": "morgado.mdsoftware.alertmaps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255853939700-esk8cq264o11fmbm0dkv37ih0kfag95d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJfS7PqzRhaLARXQ0OHgGv48A_Af7jsOQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

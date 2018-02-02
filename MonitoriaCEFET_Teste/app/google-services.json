@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "592800980045",
+    "firebase_url": "https://monitoriacefet-teste.firebaseio.com",
+    "project_id": "monitoriacefet-teste",
+    "storage_bucket": "monitoriacefet-teste.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592800980045:android:d0cac0d7bc5534f4",
+        "android_client_info": {
+          "package_name": "morgado.mdsoftware.monitoriacefet_teste"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592800980045-1on0infhhqcaijg3ar6bvqrgbedgjvhg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIvQ4mfohaFK6Oa225q6tpuEWNy65Qths"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

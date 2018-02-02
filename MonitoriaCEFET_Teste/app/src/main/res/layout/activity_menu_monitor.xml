@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundoBackGround"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fundoBackGround"
+        tools:context="morgado.mdsoftware.monitoriacefet.utilidades.MenuMonitor">
+
+        <!--
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewMenuMonitor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="LARGE_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView9">
+    </com.google.android.gms.ads.AdView>
+    -->
+
+        <!--
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:onClick="irParaCreditos"
+        android:text="Desenvolvido por Guilherme Morgado"
+        android:textColor="#0000ff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+-->
+        <Button
+            android:id="@+id/ProcurarMonitoria"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="30dp"
+
+            android:background="@drawable/button_site"
+            android:fontFamily="@string/titulo"
+            android:text="Procurar Monitoria"
+            android:textColor="@color/titulo"
+
+            android:textColorHint="@color/titulo"
+            android:textSize="@dimen/text"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/atualizarMonitoria" />
+
+        <Button
+            android:id="@+id/feedback"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_site"
+            android:fontFamily="@string/titulo"
+            android:onClick="irParaFeedBack"
+            android:text="Problemas/Sugestões? "
+
+            android:textColor="@color/titulo"
+            android:textColorHint="@color/titulo"
+            android:textSize="@dimen/text"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/AvaliarMonitor" />
+
+        <Button
+            android:id="@+id/AvaliarMonitor"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_site"
+
+            android:fontFamily="@string/titulo"
+
+            android:text="Avaliar Monitor"
+            android:textColor="@color/titulo"
+            android:textColorHint="@color/titulo"
+            android:textSize="@dimen/text"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ProcurarMonitoria" />
+
+        <Button
+            android:id="@+id/CadastroMonitoria"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button_site"
+
+            android:fontFamily="@string/titulo"
+            android:text="Cadastrar monitoria"
+
+            android:textColor="@color/titulo"
+            android:textColorHint="@color/titulo"
+            android:textSize="@dimen/text"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/atualizarMonitoria"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_site"
+            android:fontFamily="@string/titulo"
+            android:onClick="irParaAtualizar"
+            android:text="Atualizar monitoria"
+
+            android:textColor="@color/titulo"
+            android:textColorHint="@color/titulo"
+            android:textSize="@dimen/text"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/CadastroMonitoria" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+   </ScrollView>

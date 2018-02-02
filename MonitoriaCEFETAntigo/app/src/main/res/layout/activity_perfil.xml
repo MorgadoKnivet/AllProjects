@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundoBackGround"
+    tools:context="moorg.monitoriacefet.Menu">
+
+
+
+
+
+
+
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="0dp"
+    android:layout_height="50dp"
+    android:background="@color/fundoBackGround"
+    tools:context="com.example.moorg.monitoriacefet.Menu"
+    android:layout_marginLeft="0dp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    android:layout_marginRight="0dp"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:layout_marginBottom="0dp"
+    app:layout_constraintHorizontal_bias="0.0">
+
+
+
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="0dp"
+android:layout_height="63dp"
+android:background="@color/fundoBackGround"
+tools:context="com.example.moorg.monitoriacefet.Menu"
+    tools:layout_editor_absoluteY="0dp"
+    android:layout_marginLeft="0dp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    android:layout_marginRight="0dp"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintHorizontal_bias="0.0">
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+<!--
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_height="match_parent"
+
+  android:layout_width="match_parent">
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fundoBackGround"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <TextView
+            android:id="@+id/tituloL"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="30dp"
+
+
+            android:fontFamily="@string/titulo"
+            android:gravity="center"
+            android:text="Inserir Dados "
+
+
+            android:textColor="@color/titulo"
+            android:textSize="@dimen/titulo" />
+
+
+        <EditText
+            android:id="@+id/Monitor"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginEnd="8dp"
+
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            android:background="@color/fundoBackGround"
+
+            android:ems="10"
+            android:fontFamily="@string/titulo"
+            android:hint="Nome monitor"
+            android:inputType="textPersonName"
+            android:textColor="@color/titulo"
+            android:textColorHint="@color/titulo"
+            android:textSize="@dimen/text" />
+
+        <EditText
+            android:id="@+id/Materia"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:background="@color/fundoBackGround"
+            android:ems="10"
+            android:fontFamily="@string/titulo"
+            android:hint="Matéria"
+            android:inputType="textPersonName"
+            android:textColor="@color/titulo"
+            android:textColorHint="@color/titulo"
+            android:textSize="@dimen/text" />
+
+        <EditText
+            android:id="@+id/Horario"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="0.17"
+            android:background="@color/fundoBackGround"
+            android:ems="10"
+            android:fontFamily="@string/titulo"
+            android:hint="horario"
+            android:inputType="textPersonName"
+            android:textColor="@color/titulo"
+            android:textColorHint="@color/titulo"
+            android:textSize="@dimen/text" />
+
+        <EditText
+            android:id="@+id/Local"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/fundoBackGround"
+            android:ems="10"
+            android:fontFamily="@string/titulo"
+            android:hint="Local"
+            android:inputType="textPersonName"
+            android:textColor="@color/titulo"
+            android:textColorHint="@color/titulo"
+            android:textSize="@dimen/text" />
+
+        <EditText
+            android:id="@+id/ano"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+
+            android:background="@color/fundoBackGround"
+            android:ems="10"
+            android:fontFamily="@string/titulo"
+            android:hint="Ano(s) dos alunos"
+            android:inputType="textPersonName"
+            android:textColor="@color/titulo"
+            android:textColorHint="@color/titulo" />
+
+
+        <EditText
+            android:id="@+id/dias"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:background="@color/fundoBackGround"
+            android:ems="10"
+            android:fontFamily="@string/titulo"
+            android:hint="Dias da semana"
+            android:inputType="textPersonName"
+            android:textColor="@color/titulo"
+            android:textColorHint="@color/titulo"
+            android:textSize="@dimen/text" />
+
+        <Button
+            android:id="@+id/Registrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="60dp"
+
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/fundoBackGround"
+            android:fontFamily="@string/titulo"
+            android:text="Registrar"
+            android:textColor="@color/titulo"
+            android:textColorHint="@color/titulo"
+            android:textSize="@dimen/text" />
+
+
+        <TextView
+            android:id="@+id/creditos"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="16dp"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:onClick="irParaCreditos"
+            android:text="Desenvolvido por Guilherme Morgado"
+
+            android:textColor="#0000ff" />
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+-->

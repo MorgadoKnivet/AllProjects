@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="morgado.mdsoftware.monitoriacefet_teste">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" />
+
+    <!--
+    http://respostas.guj.com.br/11849-mudar-o-layout-quando-vira-a-tela
+http://www.nglauber.com.br/2011/10/android-tratando-mudanca-de-orientacao.html
+
+Atualmente a tela do nosso projeto não muda de estado, fica apenas em orientação vertical
+    -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/monitoria_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".Inicial_cadastro_inicial.Menu"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Medio_Tecnico.utilidades.BuscaMonitoria"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Medio_Tecnico.outros.PerfilActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Inicial_cadastro_inicial.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Inicial_cadastro_inicial.NewUserActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        />
+        <activity
+            android:name=".Medio_Tecnico.utilidades.InserirDadosMonitoria"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="InserirDadosMonitoria "
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Medio_Tecnico.utilidades.MenuMonitor"
+            android:label="@string/title_activity_menu_monitor"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Medio_Tecnico.utilidades.menuAluno"
+            android:label="@string/title_activity_menu_aluno"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Medio_Tecnico.outros.FeedBack"
+            android:label="@string/title_activity_feed_back"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Medio_Tecnico.outros.creditos"
+            android:label="@string/title_activity_creditos"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Medio_Tecnico.avaliar_monitoria.AvaliarMonitorBusca"
+            android:label="@string/title_activity_avaliar_monitor"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Medio_Tecnico.avaliar_monitoria.AvaliarMonitor"
+            android:label="@string/title_activity_avaliar_monitor"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Medio_Tecnico.Atualizar.AtualizarMonitoria"
+            android:label="@string/title_activity_atualizar_monitoria"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Medio_Tecnico.outros.ContaMonitor"
+            android:label="@string/title_activity_conta_monitor"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Medio_Tecnico.Atualizar.MenuAtualizarMonitoria"
+            android:label="@string/title_activity_menu_atualizar_monitoria"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Medio_Tecnico.Atualizar.AtualizarDados"
+            android:label="@string/title_activity_atualizar_dados"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Medio_Tecnico.Atualizar.AtualizarObservarcao"
+            android:label="@string/title_activity_atualizar_observarcao"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Medio_Tecnico.Atualizar.ExcluirMonitoria"
+            android:label="@string/title_activity_excluir_monitoria"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Medio_Tecnico.utilidades.RegistrarMonitoria"
+            android:label="@string/title_activity_registrar_monitoria"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Universidade.utilidades.MenuMonitorUniversidade"
+            android:label="@string/title_activity_menu_monitor_universidade"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+    </application>
+
+</manifest>

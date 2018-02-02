@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <dimen name="altura">38dp</dimen>
+    <dimen name="largura">78dp</dimen>
+    <dimen name="larguraSinal"> 88dp  </dimen>
+    <dimen name="alturaSinal"> 38dp </dimen>
+</resources>

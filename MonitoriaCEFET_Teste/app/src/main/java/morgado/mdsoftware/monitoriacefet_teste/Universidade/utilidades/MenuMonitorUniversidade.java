@@ -1,0 +1,21 @@
+package morgado.mdsoftware.monitoriacefet_teste.Universidade.utilidades;
+
+import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.View;
+
+import morgado.mdsoftware.monitoriacefet_teste.R;
+
+public class MenuMonitorUniversidade extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.universidade_menu_monitor);
+
+    }
+
+}

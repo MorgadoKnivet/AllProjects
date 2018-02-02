@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "794236998551",
+    "firebase_url": "https://monitoriacefet-de055.firebaseio.com",
+    "project_id": "monitoriacefet-de055",
+    "storage_bucket": "monitoriacefet-de055.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794236998551:android:0ccef274f7a207be",
+        "android_client_info": {
+          "package_name": "morgado.mdsoftware.monitoriacefet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794236998551-8b7ajgtslp0v16ntrc5nv1nukaorf4ov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYRL6CMSSfoI9dKoinNayg2P76nZMgivE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "565344861973",
+    "firebase_url": "https://fast-bank-b5487.firebaseio.com",
+    "project_id": "fast-bank-b5487",
+    "storage_bucket": "fast-bank-b5487.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565344861973:android:be402e5ed29dcd49",
+        "android_client_info": {
+          "package_name": "development.rodrigo.fastbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565344861973-vafdettp3l4igr233lafpmo0ta0h711i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxWN7eziQLYZ0DICOwa5wjTafSETPMn7Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
