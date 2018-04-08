@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "196923092665",
+    "firebase_url": "https://workayparceiros-83617.firebaseio.com",
+    "project_id": "workayparceiros-83617",
+    "storage_bucket": "workayparceiros-83617.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196923092665:android:ac10a644dc7d2057",
+        "android_client_info": {
+          "package_name": "workay.development.workayparceiros"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196923092665-bm5882j984m0qbid0b8darlvbmhrt4na.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdX5XUTAVBhtuYAo_nLDeaYLwVzao62KU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

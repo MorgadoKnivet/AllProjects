@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="workay.development.workayparceiros">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/w"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/w"
+        android:supportsRtl="true"
+
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".Login.TelaInicial"
+
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".OS.DetalhesOrdemServico"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Login.Login"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".OS.MenuOrdemServico"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Login.Cadastro"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Login.LoginSMS"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".OS.Diagnostico"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".OS.NovoServico"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".OS.NovoMaterial"
+            android:windowSoftInputMode="adjustUnspecified|adjustPan"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".OS.Materiais"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".OS.CriarListaMateriais"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".OS.Entrega"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".OS.VisitaAndamento"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

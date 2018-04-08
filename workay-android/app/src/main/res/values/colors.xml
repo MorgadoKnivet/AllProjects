@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="fundoListaPersonalizada"> #fcfcfc</color>
+    <color name="fundoListaPersonalizada2"> #f5f5f5</color>
+    <color name="textButtonInicial">#61bc6a</color>
+    <color name="verdePadrao">#61bc6a</color>
+    <color name="colorTituloListaPersonalizada">#000</color>
+    <color name="pretoPerrone">#231F20 </color>
+</resources>

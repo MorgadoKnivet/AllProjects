@@ -1,0 +1,4 @@
+#Sat Mar 31 00:21:09 BRT 2018
+base.0=C\:\\Users\\MoorG\\Documents\\GitLabNuvem\\workay-android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\513
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,7 @@
+#Tue Feb 06 18:31:23 BRST 2018
+base.0=C\:\\Users\\MoorG\\Documents\\GitLabNuvem\\workay-android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_bbb0d829e914154afdb11c81a4fd5d198ac0b973
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\MoorG\\Documents\\GitLabNuvem\\workay-android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_283476d144d69a4b75585b1e52b36baebf0c08a9\\classes.dex
+base.1=C\:\\Users\\MoorG\\Documents\\GitLabNuvem\\workay-android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_283476d144d69a4b75585b1e52b36baebf0c08a9
+file.0=C\:\\Users\\MoorG\\Documents\\GitLabNuvem\\workay-android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_bbb0d829e914154afdb11c81a4fd5d198ac0b973\\classes.dex

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\MoorG\\Documents\\GitLabNuvem\\workay-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\w.png",
+        "source": "C:\\Users\\MoorG\\Documents\\GitLabNuvem\\workay-android\\app\\src\\main\\res\\mipmap-xxhdpi\\w.png"
+    },
+    {
+        "merged": "C:\\Users\\MoorG\\Documents\\GitLabNuvem\\workay-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\MoorG\\Documents\\GitLabNuvem\\workay-android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\MoorG\\Documents\\GitLabNuvem\\workay-android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\MoorG\\Documents\\GitLabNuvem\\workay-android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    }
+]

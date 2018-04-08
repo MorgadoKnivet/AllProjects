@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\MoorG\.android\build-cache\b90dbdb4ac1ecd7683e401d94c2d656a44e73eb8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a0b869be21f2e39e9b337bec395d9a7e111da21e">
+        <dex dex="C:\Users\MoorG\Documents\GitLabNuvem\workay-android\app\build\intermediates\pre-dexed\debug\classes_9635a4c8a9e5cebabe69ad11f567bb0f279702df.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\MoorG\Documents\GitLabNuvem\workay-android\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="db9d75cbe2377c6d1bfe815d02d3d0f40d0613c0">
+        <dex dex="C:\Users\MoorG\Documents\GitLabNuvem\workay-android\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bbb0d829e914154afdb11c81a4fd5d198ac0b973\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\MoorG\.android\build-cache\08a010773a2add250d43b9dc255210e15fa1878b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="108c3cdbdb89a05d388a170bd3549b1e43ad6d54">
+        <dex dex="C:\Users\MoorG\Documents\GitLabNuvem\workay-android\app\build\intermediates\pre-dexed\debug\classes_c1c2a2a0126eef7f46517ae1fec0b0ba6b599a8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\MoorG\.android\build-cache\60c20571d928b66b621889cdbccaa5d72b87413d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fd6ae8c61bd548b134265ef3c37807d4efcc854c">
+        <dex dex="C:\Users\MoorG\Documents\GitLabNuvem\workay-android\app\build\intermediates\pre-dexed\debug\classes_461e8e55099abb2738b6aa69aca5b17fe51a637b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\MoorG\.android\build-cache\36f983dba6839c24877847f31ea9e4a254bf843d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e9dc052d4d36b53c3a1bb2d5bf634fcac5d35037">
+        <dex dex="C:\Users\MoorG\Documents\GitLabNuvem\workay-android\app\build\intermediates\pre-dexed\debug\classes_05a82a589be17bb5b4a313f3d6111706018c6768.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\MoorG\.android\build-cache\fa97ea665a079eddf1a82c899fbb28ffacd894c6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e96b42175c36351a016624c6da33ce99f72ac00b">
+        <dex dex="C:\Users\MoorG\Documents\GitLabNuvem\workay-android\app\build\intermediates\pre-dexed\debug\classes_09c9d57d0ffc03a9ada9aaa61749b240284371d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\MoorG\.android\build-cache\c3a607e1a1d0ee0950f04e727b0d8392489ef7a4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4d7b1a23cecd2855bdfbd8266650d140e9e6977c">
+        <dex dex="C:\Users\MoorG\Documents\GitLabNuvem\workay-android\app\build\intermediates\pre-dexed\debug\classes_5a3a62ad35608a95784d05483a92eef8ee60f9fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\MoorG\.android\build-cache\d4b01ad877ec2a2819de7a77c73f3f7843ad284b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ab14f3a3832330c4cfe82ed8c6841a4a8dc325f3">
+        <dex dex="C:\Users\MoorG\Documents\GitLabNuvem\workay-android\app\build\intermediates\pre-dexed\debug\classes_060d56ad042cf8d767b9e132d3ab307cb4e90dc9.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\MoorG\Documents\GitLabNuvem\workay-android\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\MoorG\Documents\GitLabNuvem\workay-android\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_283476d144d69a4b75585b1e52b36baebf0c08a9\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\MoorG\.android\build-cache\6f450fe2e9c4fe196d4148711fcfe6ae56f7b3eb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="225f093d9a041f8206d812d3055a886a816ac365">
+        <dex dex="C:\Users\MoorG\Documents\GitLabNuvem\workay-android\app\build\intermediates\pre-dexed\debug\classes_c3624a3122671c0fe2c19f3cc2493228be148ea1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\MoorG\.android\build-cache\a63f8ebea3544fbc6edac6265725c281d3f14868\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b09006b74a6b6ad5d696af2d85db540f7723521e">
+        <dex dex="C:\Users\MoorG\Documents\GitLabNuvem\workay-android\app\build\intermediates\pre-dexed\debug\classes_e30e4dd4ab03a6ab762a57c687c7f83e8eb0142c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\MoorG\.android\build-cache\5e0e94476812a382baa0e08147cef69e0f49efb7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b0ae7bfe4591746f6491a4a270ee56712062d1ca">
+        <dex dex="C:\Users\MoorG\Documents\GitLabNuvem\workay-android\app\build\intermediates\pre-dexed\debug\classes_7626933a6faf3707ae7ff0520de0404378e68272.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\MoorG\.android\build-cache\f676475700c49fc6fc72c5d797588b3fe179894c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1eb02c1033c29e736e558db646bbf0d522fecb53">
+        <dex dex="C:\Users\MoorG\Documents\GitLabNuvem\workay-android\app\build\intermediates\pre-dexed\debug\classes_c0625f1d0918b3ae9e68a845f008671ac0d64f06.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\MoorG\.android\build-cache\6c5bad8baecb165c4e7ca33a39f3db7dd4a952a6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="19e55bee106350a20251b6aa7bd30fa5e25c36c8">
+        <dex dex="C:\Users\MoorG\Documents\GitLabNuvem\workay-android\app\build\intermediates\pre-dexed\debug\classes_ddee4f548788b56bc2307b7436bfbff273b3c4a0.jar" />
+    </item>
+
+</items>

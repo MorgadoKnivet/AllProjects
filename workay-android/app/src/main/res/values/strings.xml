@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Workay Parceiros</string>
+    <string name="nova_senha_hint"> Nova senha </string>
+    <string name="senha_hint">Sua senha </string>
+    <string name="esqueceu_senha">Esqueceu sua senha?</string>
+    <string name="confirmar_senha">Confirme sua senha</string>
+    <string name="cadastrar_button">Cadastrar</string>
+    <string name="conta_exists">Já tenho uma conta</string>
+    <string name="logar_button">Logar</string>
+    <string name="login_hint">workay@workay.com</string>
+    <string name="confirmar_senha_hint">Confirme sua senha</string>
+
+</resources>
