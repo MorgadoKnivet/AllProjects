@@ -71,7 +71,7 @@ public class VisualizarTarefas extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
 
         DatabaseReference regMarkers = FirebaseDatabase.getInstance().getReference().child("Usuários").child(""+mAuth.getCurrentUser().getUid()).child("Makers");
-        regMarkers.addValueEventListener(new ValueEventListener() {
+        regMarkers.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 for (DataSnapshot d : dataSnapshot.getChildren()) {
@@ -132,7 +132,7 @@ public class VisualizarTarefas extends AppCompatActivity {
         final ArrayList arrayList = new ArrayList();
 
         DatabaseReference regMarkers = FirebaseDatabase.getInstance().getReference().child("Usuários").child(mAuth.getCurrentUser().getUid()).child("Makers").child(id).child("latLng");
-        regMarkers.addValueEventListener(new ValueEventListener() {
+        regMarkers.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 for (DataSnapshot d : dataSnapshot.getChildren()) {
@@ -325,7 +325,7 @@ public class VisualizarTarefas extends AppCompatActivity {
     public void excluirMarker(final String id){
         final ArrayList arrayList = new ArrayList();
         DatabaseReference regMarkers = FirebaseDatabase.getInstance().getReference().child("Usuários").child(mAuth.getCurrentUser().getUid()).child("Makers").child(id).child("latLng");
-        regMarkers.addValueEventListener(new ValueEventListener() {
+        regMarkers.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 for (DataSnapshot d : dataSnapshot.getChildren()) {

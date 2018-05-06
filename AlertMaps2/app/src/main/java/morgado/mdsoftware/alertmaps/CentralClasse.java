@@ -69,7 +69,9 @@ public class CentralClasse extends AppCompatActivity {
         mp.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
             @Override
             public void onPrepared(MediaPlayer mp) {
-                mp.start();
+                if (!mp.isPlaying()){
+                    mp.start();
+                }
             }
         });
         //     btnSom = (Button) findViewById(R.id.butStop);
@@ -77,7 +79,7 @@ public class CentralClasse extends AppCompatActivity {
         try {
             mp.reset();
             AssetFileDescriptor afd = null;
-            if (mp.isPlaying()) {
+            if (!mp.isPlaying()) {
                 mp.stop();
             }
             mp.reset();
@@ -98,6 +100,7 @@ public class CentralClasse extends AppCompatActivity {
         vc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                mp.pause();
                 mp.stop();
                 startActivity(new Intent(getApplicationContext(), MapsActivity.class));
                 finish();
@@ -108,7 +111,9 @@ public class CentralClasse extends AppCompatActivity {
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                mp.pause();
                 mp.stop();
+
                 startActivity(new Intent(getApplicationContext(), MapsActivity.class));
                 finish();
             }

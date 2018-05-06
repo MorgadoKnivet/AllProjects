@@ -25,11 +25,11 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         mAuth = FirebaseAuth.getInstance();
-/*
-        if (mAuth.getCurrentUser().){
+
+        if (mAuth.getCurrentUser().getUid() != null){
             startActivity(new Intent(getApplicationContext(), MapsActivity.class));
         }
-*/
+
         Button buscar = (Button)findViewById(R.id.butLoginLogin);
         progressDialog = new ProgressDialog(Login.this);
 

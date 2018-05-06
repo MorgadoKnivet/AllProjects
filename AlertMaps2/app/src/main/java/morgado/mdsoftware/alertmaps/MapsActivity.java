@@ -2,6 +2,7 @@ package morgado.mdsoftware.alertmaps;
 
 import android.*;
 import android.Manifest;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -73,7 +74,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     private boolean allowNetwork;
     private LocationManager locationManager;
-
+    ProgressDialog progressDialog;
     FirebaseAuth mAuth;
 
     //  var de leitura de BD
@@ -93,6 +94,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
            mapFragment.getMapAsync(this);
 
         mapView = mapFragment.getView();
+        progressDialog = new ProgressDialog(getApplicationContext());
 
         ActivityCompat.requestPermissions(MapsActivity.this, new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION},
                 MY_PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION);
@@ -119,19 +121,23 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Rio,0));
         list = new ArrayList<LatLng>();
 
+       //   progressDialog.show();
+
         mAuth = FirebaseAuth.getInstance();
         DatabaseReference regMarkers = FirebaseDatabase.getInstance().getReference().child("Usuários").child(""+mAuth.getCurrentUser().getUid()).child("Makers");
         regMarkers.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                for (DataSnapshot d : dataSnapshot.getChildren()) {
+
                 map = (Map<String, Object>) dataSnapshot.getValue();
-                }
+
                 try {
                     set = map.keySet();
                 }catch (NullPointerException n){
                     // erro tratado
                 }
+
+
 
                 for (Object i : set) {
 
@@ -251,6 +257,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     // Métodos do ciclo de vida do Fragment
     // eles trabalham com a localização, chamando os métodos de location listener
 
+    // quando a activity é mostrada para o usuário
     @Override
     public void onResume() {
         super.onResume();
@@ -265,8 +272,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)==PackageManager.PERMISSION_GRANTED) {
                 locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, this);
                 locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, this);
-            }else{
-
             }
         }
     }
@@ -441,6 +446,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             }
         });
     }
+
 
 
     @Override
