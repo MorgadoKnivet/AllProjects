@@ -238,7 +238,6 @@ public class Noise extends Activity {
 
             }
 
-            
 
             if (result / 4 >= TEMPO_MEDIO ) {
               //  calaBoca.setVisibility(View.VISIBLE);
