@@ -163,7 +163,6 @@ public class VisitaAndamento extends AppCompatActivity {
                     pergunta.setText(ordemServico.getTitulo());
 
 
-
                     final EditText resposta = (EditText) inflator.findViewById(R.id.editTextDialogChat);
                     resposta.setTypeface(fontLight);
                     respostaTV.setTypeface(medium);
